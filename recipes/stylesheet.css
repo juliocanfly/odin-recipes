@@ -1,0 +1,43 @@
+
+* {
+    font-family: cursive;
+    text-align: justify;
+}
+
+/* Italian flag */
+.green-flag {
+    background-color: rgb(18, 156, 18);
+    color: rgb(18, 156, 18);
+    margin-bottom: -45px;
+}
+
+.red-flag {
+    background-color: rgb(241, 20, 20);
+    color: rgb(241, 20, 20);
+    margin-top: -45px;
+}
+
+/* Argentinian flag */
+.white-flag {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.blue-flag {
+    background-color: lightblue;
+    color: lightblue;
+}
+
+.top-wing {
+    margin-bottom: -45px;
+}
+
+.bottom-wing {
+    margin-top: -45px;
+}
+
+/* Center receipe images */
+div {
+    text-align: center;
+}
