@@ -1,6 +1,6 @@
 
 * {
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
 }
 
@@ -17,13 +17,14 @@
     margin-top: -45px;
 }
 
-/* Argentinian flag */
+/* Middle flag */
 .white-flag {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
 }
 
+/* Argentinian flag */
 .blue-flag {
     background-color: lightblue;
     color: lightblue;
@@ -40,4 +41,17 @@
 /* Center receipe images */
 div {
     text-align: center;
+}
+
+/* Link to homepage */
+.back-to-home {
+    background-color: white;
+    margin-top: 60px;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
 }
