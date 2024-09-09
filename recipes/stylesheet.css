@@ -4,7 +4,41 @@
     text-align: justify;
 }
 
-/* Italian flag */
+.parent {
+    display: flex;
+    
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    flex-direction: column;
+    height: 80px;
+}
+
+.green-flag {
+    flex: 1;
+    background-color: rgb(18, 156, 18);
+}
+
+.white-flag {
+    flex: 1;
+    align-content: center;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.red-flag {
+    flex: 1;
+    background-color: rgb(241, 20, 20);
+}
+
+.blue-flag {
+    flex: 1;
+    background-color: lightblue;
+}
+
+/*
+Italian flag
 .green-flag {
     background-color: rgb(18, 156, 18);
     color: rgb(18, 156, 18);
@@ -17,14 +51,16 @@
     margin-top: -45px;
 }
 
-/* Middle flag */
+Middle flag
 .white-flag {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
 }
+*/
 
-/* Argentinian flag */
+/*
+Argentinian flag
 .blue-flag {
     background-color: lightblue;
     color: lightblue;
@@ -37,6 +73,7 @@
 .bottom-wing {
     margin-top: -45px;
 }
+*/
 
 /* Center receipe images */
 div {
