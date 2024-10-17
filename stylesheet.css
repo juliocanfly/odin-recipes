@@ -1,97 +1,79 @@
 /*--------------------------------------------------------------------------------------------------*/
 body {
+    /* Full screen */
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
-
+    /* Vertical layout */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    /* No margin, no padding, gap between containers */
     gap: 2em;
     margin: 0;
     padding: 0;
 }
 /*--------------------------------------------------------------------------------------------------*/
 .header, .footer {
+    /* Header and footer style */
     background-color: #1f2937;
     text-align: center;
     color: #f9faf8;
-
+    /* Header and footer padding */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .header {
+    /* Header font */
     font-weight: bolder;
     font-size: 65px;
 }
 /*--------------------------------------------------------------------------------------------------*/
 a {
+    /* Links style */
     font-size: 35px;
     color: #1f2937;
     text-decoration: none;
 }
 
-.color-red {
-    border: 4px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(241, 20, 20);
-
-    background-color: white;
-}
-
-.red-text {
-    color: rgb(241, 20, 20);
-}
-
-.color-white {
+button {
+    /* Borders style */
     border: 4px;
     border-radius: 15px;
     border-style: solid;
     border-color: #1f2937;
-
+    /* Background style */
     background-color: white;
-}
-
-.color-green {
-    border: 4px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(18, 156, 18);
-
-    background-color: white;
-}
-
-.green-text {
-    color: rgb(18, 156, 18);
 }
 /*--------------------------------------------------------------------------------------------------*/
 .content-container {
+    /* Central container flex layout */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2em;
-
-    background-color: #f9faf8;
+    /* Central container background and padding */
+    background-color: #e5e7eb;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .image-container {
+    /* Image container flex layout */
     display: flex;
     justify-content: center;
-
+    /* Image container border */
     border: 4px;
     border-radius: 15px;
     border-color: #1f2937;
     border-style: solid;
-
+    /* Image container background and padding */
     padding: 5px;
     background-color: white;
 }
 
 .buttons-container {
+    /* Buttons container flex layout */
     display: flex;
     flex-direction: column;
     justify-content: center;
