@@ -37,6 +37,9 @@ a {
 }
 
 button {
+    /* Padding */
+    padding-left: 50px;
+    padding-right: 50px;
     /* Borders style */
     border: 4px;
     border-radius: 15px;
@@ -53,9 +56,10 @@ button {
     justify-content: space-around;
     gap: 2em;
     /* Central container background and padding */
-    background-color: #e5e7eb;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    background-image: url("gingham_pattern_blue_background.jpg");
+    background-size: 150vh;
 }
 
 .image-container {
