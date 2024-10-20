@@ -15,7 +15,7 @@ body {
 /*--------------------------------------------------------------------------------------------------*/
 .header, .footer {
     /* Header and footer style */
-    background-color: #1f2937;
+    background-color: #49657b;
     text-align: center;
     color: #f9faf8;
     /* Header and footer padding */
@@ -57,9 +57,10 @@ button {
     gap: 2em;
     /* Central container background and padding */
     padding-top: 20px;
-    padding-bottom: 19px;
+    padding-bottom: 20px;
     background-image: url("gingham_pattern_blue_background.jpg");
     background-size: 150vh;
+    background-position: center;
 }
 
 .image-container {
