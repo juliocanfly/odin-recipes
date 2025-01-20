@@ -1,0 +1,57 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+/* Italian flag */
+.green-flag {
+    background-color: rgb(18, 156, 18);
+    color: rgb(18, 156, 18);
+    margin-bottom: -45px;
+}
+
+.red-flag {
+    background-color: rgb(241, 20, 20);
+    color: rgb(241, 20, 20);
+    margin-top: -45px;
+}
+
+/* Middle flag */
+.white-flag {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Argentinian flag */
+.blue-flag {
+    background-color: lightblue;
+    color: lightblue;
+}
+
+.top-wing {
+    margin-bottom: -45px;
+}
+
+.bottom-wing {
+    margin-top: -45px;
+}
+
+/* Center receipe images */
+div {
+    text-align: center;
+}
+
+/* Link to homepage */
+.back-to-home {
+    background-color: white;
+    margin-top: 60px;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
